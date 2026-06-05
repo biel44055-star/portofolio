@@ -1,0 +1,10 @@
+{
+  "name": "nabiel-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static interactive portfolio website for Nabiel Arinaullah.",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  }
+}

@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio resmi Nabiel Arinaullah, mahasiswa Manajemen Informatika, business plan competitor, event coordinator, debater, dan project leader." />
+  <meta name="theme-color" content="#070816" />
+  <meta property="og:title" content="Nabiel Arinaullah — Portfolio" />
+  <meta property="og:description" content="Interactive dark-gradient portfolio for business plan, leadership, debate, internship, and creative projects." />
+  <meta property="og:image" content="assets/profile-square.jpg" />
+  <title>Nabiel Arinaullah — Portfolio</title>
+  <link rel="icon" href="assets/profile-square.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="brand" aria-label="Kembali ke halaman utama">
+      <span class="brand-mark">NA</span>
+      <span>Nabiel Arinaullah</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Buka menu navigasi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" aria-label="Navigasi utama">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#organization">Organization</a>
+      <a href="#awards">Awards</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Informatics Management Student • Business Plan Competitor • Event & Project Coordinator</p>
+        <h1>
+          Hi, I’m <span>Nabiel Arinaullah</span>
+        </h1>
+        <p class="hero-text">
+          Mahasiswa Manajemen Informatika Politeknik Negeri Sriwijaya yang aktif dalam kompetisi business plan, entrepreneurship,
+          debat, kepanitiaan, dan pengalaman kerja praktik. Website ini merangkum pengalaman kerja, organisasi, penghargaan lomba,
+          serta portofolio visual berbasis file sertifikat dan dokumentasi yang saya miliki.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#gallery">Explore Portfolio</a>
+          <a class="btn ghost" href="docs/CV_Nabiel.pdf" target="_blank" rel="noreferrer">Download CV</a>
+          <a class="btn ghost" href="https://drive.google.com/drive/folders/1Gdl5dx_gmaNXqSuZuBmhRNqjrP9SvLeg?usp=sharing" target="_blank" rel="noreferrer">Open Drive Portfolio</a>
+        </div>
+        <div class="hero-stats" aria-label="Ringkasan pencapaian">
+          <article>
+            <strong>20+</strong>
+            <span>Portfolio proofs & certificates</span>
+          </article>
+          <article>
+            <strong>2</strong>
+            <span>Internship / practical work experiences</span>
+          </article>
+          <article>
+            <strong>2025</strong>
+            <span>Leadership & competition highlights</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="photo-card tilt-card">
+          <img src="assets/profile-nabiel.jpg" alt="Foto Nabiel Arinaullah mengenakan jas formal dan memegang buket bunga" />
+          <div class="floating-badge one">Project Coordinator</div>
+          <div class="floating-badge two">Business Plan Competitor</div>
+          <div class="orbit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Highlight kemampuan">
+      <div class="marquee-track">
+        <span>Business Planning</span><span>Event Management</span><span>Public Speaking</span><span>Team Leadership</span><span>Debate</span><span>Entrepreneurship</span><span>Digital Marketing</span><span>Android Basics</span>
+        <span>Business Planning</span><span>Event Management</span><span>Public Speaking</span><span>Team Leadership</span><span>Debate</span><span>Entrepreneurship</span><span>Digital Marketing</span><span>Android Basics</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Driven by ideas, teamwork, and clear communication.</h2>
+      </div>
+      <div class="about-layout">
+        <article class="glass-panel reveal">
+          <p>
+            Saya adalah mahasiswa Diploma IV Manajemen Informatika di Politeknik Negeri Sriwijaya. Saya memiliki minat kuat pada
+            pengembangan konsep bisnis, koordinasi acara, presentasi ide, komunikasi bahasa Inggris, dan kolaborasi tim. Pengalaman
+            saya berkembang melalui kompetisi nasional dan internasional, organisasi UKM English Debating Society, serta kerja praktik
+            pada lingkungan PLN dan PERUMDA Tirta Musi Palembang.
+          </p>
+          <p>
+            Melalui website ini, saya ingin menampilkan perjalanan saya secara lebih personal dan profesional: mulai dari pengalaman kerja,
+            kepanitiaan, organisasi, proyek, hingga sertifikat penghargaan yang menjadi bukti nyata proses belajar dan kontribusi saya.
+          </p>
+        </article>
+        <aside class="quick-info reveal">
+          <div><span>Location</span><strong>Palembang, Indonesia</strong></div>
+          <div><span>Education</span><strong>D-IV Manajemen Informatika</strong></div>
+          <div><span>Campus</span><strong>Politeknik Negeri Sriwijaya</strong></div>
+          <div><span>Languages</span><strong>Indonesian & English</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Core Skills</p>
+        <h2>A blend of leadership, technology, communication, and business thinking.</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card reveal tilt-card">
+          <div class="icon">01</div>
+          <h3>Project & Event Coordination</h3>
+          <p>Mengelola alur kegiatan, koordinasi panitia, komunikasi tim, dan kebutuhan peserta agar event berjalan rapi.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <div class="icon">02</div>
+          <h3>Business Plan & Entrepreneurship</h3>
+          <p>Menyusun ide bisnis, konsep keberlanjutan, analisis peluang, presentasi pitch, dan pengembangan produk kreatif.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <div class="icon">03</div>
+          <h3>Public Speaking & Debate</h3>
+          <p>Terlatih menyampaikan gagasan secara jelas melalui debat, interview, presentasi, dan aktivitas English festival.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <div class="icon">04</div>
+          <h3>Digital & Administrative Support</h3>
+          <p>Mendukung dokumentasi, desain, operator acara, Microsoft Office, Google Workspace, dan konsep digital marketing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Work Experience</p>
+        <h2>Practical work that shaped discipline, responsibility, and teamwork.</h2>
+        <p>Bagian ini menampilkan pengalaman kerja praktik utama yang relevan dengan kesiapan profesional saya.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-media">
+            <button class="mini-thumb feature-thumb" data-modal="galleryModal" data-image="assets/certificate-kp-pln.jpg" data-title="PT PLN UPDL Palembang">
+              <img src="assets/certificate-kp-pln.jpg" alt="PT PLN UPDL Palembang" loading="lazy" />
+            </button>
+          </div>
+          <div class="feature-content">
+            <span class="tag">Feb – Jul 2024</span>
+            <h3>PT PLN UPDL Palembang</h3>
+            <p>Kerja praktik yang memperkuat disiplin kerja, dokumentasi administrasi, komunikasi tim, dan pemahaman standar keselamatan kerja.</p>
+            <a class="text-link" href="docs/Sertifikat_KP_PLN.pdf" target="_blank" rel="noreferrer">Open Internship Certificate</a>
+          </div>
+        </article>
+<article class="feature-card reveal">
+          <div class="feature-media">
+            <button class="mini-thumb feature-thumb" data-modal="galleryModal" data-image="assets/portfolio/magang-img-20260423-wa0058.jpg" data-title="PERUMDA Tirta Musi Palembang">
+              <img src="assets/portfolio/magang-img-20260423-wa0058.jpg" alt="PERUMDA Tirta Musi Palembang" loading="lazy" />
+            </button>
+          </div>
+          <div class="feature-content">
+            <span class="tag">Apr 2025</span>
+            <h3>PERUMDA Tirta Musi Palembang</h3>
+            <p>Pengalaman praktik di organisasi utilitas publik yang membentuk tanggung jawab profesional, komunikasi, dan koordinasi pelayanan.</p>
+            
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="organization">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Organization & Leadership</p>
+        <h2>Leadership roles and committee experiences that built my coordination skills.</h2>
+      </div>
+      <div class="portfolio-mini-grid">
+        <article class="portfolio-mini-card reveal tilt-card">
+          <button class="mini-thumb" data-modal="galleryModal" data-image="assets/portfolio/2025-2-3.png" data-title="Deputy Chairman — UKM English Debating Society">
+            <img src="assets/portfolio/2025-2-3.png" alt="Deputy Chairman — UKM English Debating Society" loading="lazy" />
+          </button>
+          <div class="mini-card-body">
+            <span class="tag">2025</span>
+            <h3>Deputy Chairman — UKM English Debating Society</h3>
+            <p>Berperan aktif dalam kepemimpinan organisasi dan kontribusi kegiatan EDS.</p>
+          </div>
+        </article>
+<article class="portfolio-mini-card reveal tilt-card">
+          <button class="mini-thumb" data-modal="galleryModal" data-image="assets/portfolio/2025-nabiel-arinaullah-1.png" data-title="Vice General Chairman — EDS">
+            <img src="assets/portfolio/2025-nabiel-arinaullah-1.png" alt="Vice General Chairman — EDS" loading="lazy" />
+          </button>
+          <div class="mini-card-body">
+            <span class="tag">2025/2026</span>
+            <h3>Vice General Chairman — EDS</h3>
+            <p>Penguatan peran kepemimpinan dalam organisasi mahasiswa bahasa Inggris.</p>
+          </div>
+        </article>
+<article class="portfolio-mini-card reveal tilt-card">
+          <button class="mini-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-nabiel-arinaullah-1.png" data-title="Chairman of Committee — PEFSI">
+            <img src="assets/portfolio/2024-nabiel-arinaullah-1.png" alt="Chairman of Committee — PEFSI" loading="lazy" />
+          </button>
+          <div class="mini-card-body">
+            <span class="tag">2024</span>
+            <h3>Chairman of Committee — PEFSI</h3>
+            <p>Memimpin koordinasi panitia festival bahasa Inggris tingkat kampus.</p>
+          </div>
+        </article>
+<article class="portfolio-mini-card reveal tilt-card">
+          <button class="mini-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-nabiel-arinaullah.png" data-title="Vice Chairman — ICSCP Seminar &amp; Workshop">
+            <img src="assets/portfolio/2024-nabiel-arinaullah.png" alt="Vice Chairman — ICSCP Seminar &amp; Workshop" loading="lazy" />
+          </button>
+          <div class="mini-card-body">
+            <span class="tag">2024</span>
+            <h3>Vice Chairman — ICSCP Seminar & Workshop</h3>
+            <p>Mendukung perencanaan kegiatan kolaborasi internasional dan koordinasi peserta.</p>
+          </div>
+        </article>
+<article class="portfolio-mini-card reveal tilt-card">
+          <button class="mini-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241028-wa0015-1.jpg" data-title="Designer &amp; Operator — ELITE 2024">
+            <img src="assets/portfolio/2024-img-20241028-wa0015-1.jpg" alt="Designer &amp; Operator — ELITE 2024" loading="lazy" />
+          </button>
+          <div class="mini-card-body">
+            <span class="tag">2024</span>
+            <h3>Designer & Operator — ELITE 2024</h3>
+            <p>Kontribusi pada desain dan dukungan operasional event inovasi bahasa Inggris.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="awards">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Awards & Achievements</p>
+        <h2>Recognized in business, debate, entrepreneurship, and vocational activities.</h2>
+      </div>
+      <div class="award-visual-grid">
+        <article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241007-wa0000-2.jpg" data-title="2nd Place — Karya Nyata Festival Vol. 11">
+            <img src="assets/portfolio/2024-img-20241007-wa0000-2.jpg" alt="2nd Place — Karya Nyata Festival Vol. 11" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2024</span>
+            <h3>2nd Place — Karya Nyata Festival Vol. 11</h3>
+            <p>Business Plan Competition, project “Wearable Sustain”.</p>
+          </div>
+        </article>
+<article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20240129-wa0031.jpg" data-title="1st Winner — Perbanas Entrepreneur Awards">
+            <img src="assets/portfolio/2023-img-20240129-wa0031.jpg" alt="1st Winner — Perbanas Entrepreneur Awards" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2023</span>
+            <h3>1st Winner — Perbanas Entrepreneur Awards</h3>
+            <p>Prestasi di kompetisi ide bisnis dan kewirausahaan.</p>
+          </div>
+        </article>
+<article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20231027-wa0153.jpg" data-title="3rd Winner — ASEAN Business Plan Competition">
+            <img src="assets/portfolio/2023-img-20231027-wa0153.jpg" alt="3rd Winner — ASEAN Business Plan Competition" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2023</span>
+            <h3>3rd Winner — ASEAN Business Plan Competition</h3>
+            <p>Penghargaan tingkat regional untuk Team Peton.</p>
+          </div>
+        </article>
+<article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241108-wa0063-1.jpg" data-title="3rd Winner — IPEC Novice Interview">
+            <img src="assets/portfolio/2024-img-20241108-wa0063-1.jpg" alt="3rd Winner — IPEC Novice Interview" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2024</span>
+            <h3>3rd Winner — IPEC Novice Interview</h3>
+            <p>Prestasi di 1st Indonesian Polytechnic English Championship.</p>
+          </div>
+        </article>
+<article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20230923-wa0046-1.jpg" data-title="Best Participant — Android Training">
+            <img src="assets/portfolio/2023-img-20230923-wa0046-1.jpg" alt="Best Participant — Android Training" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2023</span>
+            <h3>Best Participant — Android Training</h3>
+            <p>Pencapaian pada pelatihan Android di IT Festival.</p>
+          </div>
+        </article>
+<article class="award-visual-card reveal tilt-card">
+          <button class="award-thumb" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20251204-104522.jpg" data-title="World Vocational Competition Highlight">
+            <img src="assets/portfolio/2024-img-20251204-104522.jpg" alt="World Vocational Competition Highlight" loading="lazy" />
+          </button>
+          <div class="award-body">
+            <span>2025</span>
+            <h3>World Vocational Competition Highlight</h3>
+            <p>Dokumentasi capaian kompetisi vokasi dan performa portofolio.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Projects</p>
+        <h2>Projects and activities that shaped my professional profile.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-top"><span>Business Plan</span><strong>2024</strong></div>
+          <h3>Wearable Sustain</h3>
+          <p>Konsep bisnis fashion berkelanjutan yang diakui di Karya Nyata Festival Vol. 11 Palembang.</p>
+        </article>
+<article class="project-card reveal">
+          <div class="project-top"><span>Entrepreneurship</span><strong>2025</strong></div>
+          <h3>Pempek Tiwul — PMW</h3>
+          <p>Proyek sektor makanan dalam Program Mahasiswa Wirausaha dengan predikat “Good”.</p>
+        </article>
+<article class="project-card reveal">
+          <div class="project-top"><span>Training</span><strong>2023</strong></div>
+          <h3>Android Training</h3>
+          <p>Pengembangan keterampilan dasar Android dan literasi digital melalui IT Festival 2023.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Portfolio Gallery</p>
+        <h2>Visual proof of my journey</h2>
+        <p>Semua gambar berikut diambil dari file ZIP yang kamu kirim, lalu saya susun menjadi galeri interaktif agar lebih rapi dan mudah ditelusuri.</p>
+      </div>
+      <div class="gallery-grid">
+        <article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241007-wa0000-2.jpg" data-title="2nd Place — Karya Nyata Festival Vol. 11">
+            <img src="assets/portfolio/2024-img-20241007-wa0000-2.jpg" alt="2nd Place — Karya Nyata Festival Vol. 11" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2024</strong></div>
+            <h3>2nd Place — Karya Nyata Festival Vol. 11</h3>
+            <p>Business Plan Competition, conceptual category project “Wearable Sustain”.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241028-wa0015-1.jpg" data-title="Designer — ELITE 2024">
+            <img src="assets/portfolio/2024-img-20241028-wa0015-1.jpg" alt="Designer — ELITE 2024" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2024</strong></div>
+            <h3>Designer — ELITE 2024</h3>
+            <p>Recognition for contribution as designer in Encouraging and Leading Innovation Through English.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241025-wa0058-1.jpg" data-title="Competition Award Documentation">
+            <img src="assets/portfolio/2024-img-20241025-wa0058-1.jpg" alt="Competition Award Documentation" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Documentation</span><strong>2024</strong></div>
+            <h3>Competition Award Documentation</h3>
+            <p>Dokumentasi penerimaan sertifikat dan penghargaan.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241028-wa0016-1.jpg" data-title="Operator — ELITE 2024">
+            <img src="assets/portfolio/2024-img-20241028-wa0016-1.jpg" alt="Operator — ELITE 2024" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2024</strong></div>
+            <h3>Operator — ELITE 2024</h3>
+            <p>Recognition for operational support in ELITE 2024.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20251204-104522.jpg" data-title="Competition Medal Documentation">
+            <img src="assets/portfolio/2024-img-20251204-104522.jpg" alt="Competition Medal Documentation" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Achievement</span><strong>2025</strong></div>
+            <h3>Competition Medal Documentation</h3>
+            <p>Dokumentasi medali dan capaian kompetisi.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241030-wa0014-1.jpg" data-title="Event / Competition Documentation">
+            <img src="assets/portfolio/2024-img-20241030-wa0014-1.jpg" alt="Event / Competition Documentation" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Documentation</span><strong>2024</strong></div>
+            <h3>Event / Competition Documentation</h3>
+            <p>Dokumentasi kegiatan organisasi dan kompetisi.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-nabiel-arinaullah.png" data-title="Vice Chairman — ICSCP Seminar &amp; Workshop">
+            <img src="assets/portfolio/2024-nabiel-arinaullah.png" alt="Vice Chairman — ICSCP Seminar &amp; Workshop" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2024</strong></div>
+            <h3>Vice Chairman — ICSCP Seminar & Workshop</h3>
+            <p>Recognition as vice chairman in International Community Service Collaboration Project.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-nabiel-arinaullah-1.png" data-title="Chairman of Committee — PEFSI 2024">
+            <img src="assets/portfolio/2024-nabiel-arinaullah-1.png" alt="Chairman of Committee — PEFSI 2024" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2024</strong></div>
+            <h3>Chairman of Committee — PEFSI 2024</h3>
+            <p>Recognition as chairman of committee for Polsri English Festival 2024.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2024-img-20241108-wa0063-1.jpg" data-title="3rd Winner — Novice Interview Category, IPEC">
+            <img src="assets/portfolio/2024-img-20241108-wa0063-1.jpg" alt="3rd Winner — Novice Interview Category, IPEC" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2024</strong></div>
+            <h3>3rd Winner — Novice Interview Category, IPEC</h3>
+            <p>1st Indonesian Polytechnic English Championship, novice interview category.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/magang-img-20260423-wa0058.jpg" data-title="Practical Work Evaluation — Utility Sector">
+            <img src="assets/portfolio/magang-img-20260423-wa0058.jpg" alt="Practical Work Evaluation — Utility Sector" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Experience</span><strong>2025</strong></div>
+            <h3>Practical Work Evaluation — Utility Sector</h3>
+            <p>Dokumentasi penilaian kerja praktik dan penguatan etos kerja profesional.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20230923-wa0046-1.jpg" data-title="Best Participant — Android Training">
+            <img src="assets/portfolio/2023-img-20230923-wa0046-1.jpg" alt="Best Participant — Android Training" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Training</span><strong>2023</strong></div>
+            <h3>Best Participant — Android Training</h3>
+            <p>IT Festival 2023, theme “Be a Digital Creator to Acquire Privileges”.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20231027-wa0153.jpg" data-title="3rd Winner — ASEAN Business Plan Competition">
+            <img src="assets/portfolio/2023-img-20231027-wa0153.jpg" alt="3rd Winner — ASEAN Business Plan Competition" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2023</strong></div>
+            <h3>3rd Winner — ASEAN Business Plan Competition</h3>
+            <p>Team Peton, sustainable solutions and greener economy.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20240215-wa0029-1.jpg" data-title="IDEA Debate Participant">
+            <img src="assets/portfolio/2023-img-20240215-wa0029-1.jpg" alt="IDEA Debate Participant" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Activity</span><strong>2023</strong></div>
+            <h3>IDEA Debate Participant</h3>
+            <p>National debate activity organized by UKM English Debating Society.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20240215-wa0027.jpg" data-title="Indonesian National Youth Summit Participant">
+            <img src="assets/portfolio/2023-img-20240215-wa0027.jpg" alt="Indonesian National Youth Summit Participant" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Activity</span><strong>2024</strong></div>
+            <h3>Indonesian National Youth Summit Participant</h3>
+            <p>Participation in youth summit activity and development program.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20240129-wa0031.jpg" data-title="1st Winner — Perbanas Entrepreneur Awards">
+            <img src="assets/portfolio/2023-img-20240129-wa0031.jpg" alt="1st Winner — Perbanas Entrepreneur Awards" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2023</strong></div>
+            <h3>1st Winner — Perbanas Entrepreneur Awards</h3>
+            <p>Entrepreneurship and business idea competition.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20240215-wa0028-1.jpg" data-title="Certificate — ASEAN Business Plan Competition">
+            <img src="assets/portfolio/2023-img-20240215-wa0028-1.jpg" alt="Certificate — ASEAN Business Plan Competition" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2023</strong></div>
+            <h3>Certificate — ASEAN Business Plan Competition</h3>
+            <p>Third winner certificate awarded to Nabiel Arinaullah.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2023-img-20231219-wa0039-1.jpg" data-title="Certificate — Team Peton ASEAN Business Plan">
+            <img src="assets/portfolio/2023-img-20231219-wa0039-1.jpg" alt="Certificate — Team Peton ASEAN Business Plan" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Award</span><strong>2023</strong></div>
+            <h3>Certificate — Team Peton ASEAN Business Plan</h3>
+            <p>Third winner team certificate for Team Peton.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2025-nabiel-arinaullah-1.png" data-title="Vice General Chairman — EDS 2025/2026">
+            <img src="assets/portfolio/2025-nabiel-arinaullah-1.png" alt="Vice General Chairman — EDS 2025/2026" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2025</strong></div>
+            <h3>Vice General Chairman — EDS 2025/2026</h3>
+            <p>Recognition for leadership role in UKM English Debating Society.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2025-camscanner-05-05-2026-18-46.jpg" data-title="Program Mahasiswa Wirausaha — Pempek Tiwul">
+            <img src="assets/portfolio/2025-camscanner-05-05-2026-18-46.jpg" alt="Program Mahasiswa Wirausaha — Pempek Tiwul" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Project</span><strong>2025</strong></div>
+            <h3>Program Mahasiswa Wirausaha — Pempek Tiwul</h3>
+            <p>Food-sector entrepreneurship project with “Good” predicate.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/2025-2-3.png" data-title="Deputy Chairman — EDS">
+            <img src="assets/portfolio/2025-2-3.png" alt="Deputy Chairman — EDS" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Organization</span><strong>2025</strong></div>
+            <h3>Deputy Chairman — EDS</h3>
+            <p>Recognition for leadership contribution in UKM English Debating Society.</p>
+          </div>
+        </article>
+<article class="gallery-card reveal">
+          <button class="gallery-button" data-modal="galleryModal" data-image="assets/portfolio/sertifikat-dsc1765.jpeg" data-title="Formal Documentation Portrait">
+            <img src="assets/portfolio/sertifikat-dsc1765.jpeg" alt="Formal Documentation Portrait" loading="lazy" />
+            <div class="gallery-overlay"></div>
+          </button>
+          <div class="gallery-meta">
+            <div class="gallery-top"><span class="tag">Profile</span><strong>2025</strong></div>
+            <h3>Formal Documentation Portrait</h3>
+            <p>Dokumentasi formal untuk personal branding portfolio.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="documents">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Supporting Documents</p>
+        <h2>Quick access to CV and portfolio documents.</h2>
+      </div>
+      <div class="document-grid">
+        <article class="document-card reveal">
+          <span class="tag">Main CV</span>
+          <h3>Curriculum Vitae</h3>
+          <p>Versi CV utama yang digunakan sebagai dasar konten website.</p>
+          <a class="text-link" href="docs/CV_Nabiel.pdf" target="_blank" rel="noreferrer">Open CV</a>
+        </article>
+        <article class="document-card reveal">
+          <span class="tag">Internship</span>
+          <h3>PLN Internship Certificate</h3>
+          <p>Dokumen kerja praktik yang mendukung bagian pengalaman kerja.</p>
+          <a class="text-link" href="docs/Sertifikat_KP_PLN.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+        </article>
+        <article class="document-card reveal">
+          <span class="tag">Portfolio PDF</span>
+          <h3>Additional Portfolio Files</h3>
+          <p>Dokumen pendukung dari arsip portofolio, termasuk surat tugas dan file sertifikat tambahan.</p>
+          <div class="document-links">
+            <a class="text-link" href="docs/portfolio/2025-surat-tugas-hasil.pdf" target="_blank" rel="noreferrer">Surat Tugas & Hasil</a>
+            <a class="text-link" href="docs/portfolio/2024-nabiel-arinaullah-1.pdf" target="_blank" rel="noreferrer">Additional Certificate</a>
+            <a class="text-link" href="docs/portfolio/sertifikat-cv-nabiel-2.pdf" target="_blank" rel="noreferrer">CV Copy from ZIP</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s collaborate and create something meaningful.</h2>
+        <p>Terbuka untuk kolaborasi project, event, business plan, kompetisi, dan pengembangan ide digital.</p>
+        <div class="contact-links">
+          <a href="mailto:nabielarinaullah01@gmail.com">nabielarinaullah01@gmail.com</a>
+          <a href="tel:+6283163489528">0831 6348 9528</a>
+          <a href="https://www.linkedin.com/search/results/all/?keywords=Nabiel%20Arinaullah" target="_blank" rel="noreferrer">LinkedIn: Nabiel Arinaullah</a>
+          <a href="https://drive.google.com/drive/folders/1Gdl5dx_gmaNXqSuZuBmhRNqjrP9SvLeg?usp=sharing" target="_blank" rel="noreferrer">Google Drive Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="currentYear"></span> Nabiel Arinaullah. Built for GitHub & Vercel deployment.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="modal" id="galleryModal" role="dialog" aria-modal="true" aria-label="Preview portfolio image" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content modal-gallery-content">
+      <button class="modal-close" data-close-modal aria-label="Tutup preview">×</button>
+      <img id="modalImage" src="assets/profile-square.jpg" alt="Preview image" />
+      <div class="modal-caption" id="modalCaption">Portfolio Preview</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
